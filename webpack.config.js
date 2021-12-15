@@ -31,3 +31,11 @@ module.exports = {
     ],
   },
 };
+
+const productionConfig = merge([ //eslint-disable-line
+  {
+    output: {
+      publicPath: '/Leaderboard/',
+    },
+  },
+]);
