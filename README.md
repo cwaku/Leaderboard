@@ -28,6 +28,8 @@ some knowledge on `npm` webpack and ES6
 ### Setup
 
 - Clone repository
+- Change directory to the cloned repository
+- Install dependencies using `npm install`
 - run `npm start`
 ### Install
 
