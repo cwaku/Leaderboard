@@ -15,7 +15,7 @@
 - HTML
 
 ## Live Demo
-![Click here to view]()
+[Click here to view](https://cwaku.github.io/Leaderboard/)
 
 ## Getting Started
 

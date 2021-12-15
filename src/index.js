@@ -1,7 +1,6 @@
 import './style.css';
-import { getDOM, render } from './getDOM.js';
+import render from './getDOM.js';
 
 document.addEventListener('DOMContentLoaded', () => {
-  getDOM();
   render();
 });
