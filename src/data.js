@@ -1,5 +1,4 @@
-// eslint-disable-next-line import/prefer-default-export
-export const data = [
+const data = [
   {
     name: 'Ricky',
     score: 100,
@@ -21,3 +20,5 @@ export const data = [
     score: 900,
   },
 ];
+
+export default data;

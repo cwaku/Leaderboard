@@ -1,4 +1,6 @@
-import { data } from './data.js';
+import data from './data.js';
 
-// eslint-disable-next-line import/prefer-default-export
-export const fetch = () => data;
+// fetch data from data.js
+const fetch = () => data;
+
+export default fetch;
