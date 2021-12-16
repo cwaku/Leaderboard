@@ -4,15 +4,15 @@
 
 > 
 
-![screenshot](./)
+![screenshot](./Screenshot.png)
 
 
 ## Built With
 
 - Webpack
 - JavaScript (ES6)
-- CSS
-- HTML
+- CSS3
+- HTML5
 
 ## Live Demo
 [Click here to view](https://cwaku.github.io/Leaderboard/)

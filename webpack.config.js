@@ -1,6 +1,7 @@
 const path = require('path');
 /* eslint-disable */
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const merge = require('lodash.merge');
 /* eslint-enable */
 
 module.exports = {
@@ -31,3 +32,11 @@ module.exports = {
     ],
   },
 };
+
+const productionConfig = merge([ //eslint-disable-line
+  {
+    output: {
+      publicPath: '/Leaderboard/',
+    },
+  },
+]);
