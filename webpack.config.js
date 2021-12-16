@@ -5,7 +5,7 @@ const merge = require('lodash.merge');
 /* eslint-enable */
 
 module.exports = {
-  mode: 'production',
+  mode: 'development',
   entry: {
     index: './src/index.js',
   },
@@ -32,3 +32,11 @@ module.exports = {
     ],
   },
 };
+
+const productionConfig = merge([ //eslint-disable-line
+  {
+    output: {
+      publicPath: '/Leaderboard/',
+    },
+  },
+]);
