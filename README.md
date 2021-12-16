@@ -2,7 +2,7 @@
 
 # Leaderboard
 
-> 
+> External **API** used => [Link to API](https://www.notion.so/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3)
 
 ![screenshot](./Screenshot.png)
 
