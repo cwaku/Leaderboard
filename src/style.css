@@ -82,6 +82,8 @@ body {
 }
 
 .score-container {
+  height: 350px;
+  overflow: auto;
   border: 1px solid black;
   list-style: none;
   display: flex;
@@ -101,6 +103,7 @@ body {
 
 .list-item:nth-child(odd) {
   background-color: #3e383814;
+  border-radius: 15px;
 }
 
 .add-score {
