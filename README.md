@@ -2,7 +2,7 @@
 
 # Leaderboard
 
-> 
+> The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to an [external API](https://www.notion.so/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3).
 
 ![screenshot](./Screenshot.png)
 
@@ -27,8 +27,8 @@ some knowledge on `npm` webpack and ES6
 
 ### Setup
 
-- Clone repository
-- Change directory to the cloned repository
+- Clone repository using this command in terminal ` git clone https://github.com/cwaku/Leaderboard.git`
+- Change directory to the cloned repository `cd Leaderboard`
 - Install dependencies using `npm install`
 - run `npm start`
 ### Install
