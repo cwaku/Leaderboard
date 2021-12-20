@@ -36,17 +36,6 @@ body {
   box-shadow: 7px 7px 5px 0 rgba(0, 0, 0, 0.75);
 }
 
-.refresh-button:hover,
-.refresh-button:focus,
-.refresh-button:active,
-.submit-button:hover,
-.submit-button:focus,
-.submit-button:active {
-  background-color: #000;
-  cursor: pointer;
-  color: #f2f2f2;
-}
-
 .score-container {
   border: 1px solid black;
   list-style: none;
