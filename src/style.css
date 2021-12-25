@@ -108,12 +108,9 @@ body {
 
 .add-score {
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
+.add-score,
 .add-score-form {
   display: flex;
   flex-direction: column;
@@ -122,7 +119,8 @@ body {
 }
 
 .name-input,
-.score-input {
+.score-input,
+.submit-button {
   width: 100%;
   padding: 10px;
   margin: 10px;
@@ -131,17 +129,13 @@ body {
 }
 
 .submit-button {
-  width: 100%;
-  padding: 10px;
-  margin: 10px;
-  border: 1px solid black;
   font-size: 20px;
   font-weight: bold;
   box-shadow: 7px 7px 5px 0 rgba(0, 0, 0, 0.75);
 }
 
 .submit-button:hover {
-  background-color: #3e383814;
+  background-color: #3e383880;
   cursor: pointer;
   font-size: 25px;
 }
