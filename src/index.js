@@ -1,15 +1,14 @@
 import './style.css';
 import './animation.css';
-import { sendNewScore } from './fetch.js';
+
+import {sendNewScore} from './fetch.js';
 import render from './getDOM.js';
 
 const refreshButton = document.querySelector('.refresh-button');
 const form = document.getElementById('form');
 
 document.addEventListener('DOMContentLoaded', () => {
-  refreshButton.addEventListener('click', async () => {
-    render();
-  });
+  refreshButton.addEventListener('click', async () => { render(); });
 
   form.addEventListener('submit', async (event) => {
     event.preventDefault();
