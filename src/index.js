@@ -1,4 +1,5 @@
 import './style.css';
+import './animation.css';
 import { sendNewScore } from './fetch.js';
 import render from './getDOM.js';
 
